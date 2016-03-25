@@ -1,0 +1,490 @@
+* {
+    font-family:"Microsoft YaHei";
+}
+.white{	
+	color:#FFFFFF;
+}
+.pink{
+	color:#E7504D;
+}
+.text-center{
+	text-align:center;
+}
+
+
+.nav {
+    background-color: #FFF;
+    height: 62px;
+	width:1349px;
+}
+.nav ul{
+	float:right;
+	padding-right:20px;
+}
+.nav ul li{
+    display: inline-block;
+    line-height: 57px;
+
+}
+.nav ul li.active {
+    height: 57px;
+    border-bottom: 5px solid #ED8476;
+	color:#ED8476;
+}
+.nav ul li.login{
+	color:#ED8476;
+	background:url(img/login.png)  no-repeat left;
+
+}
+.nav ul li a {
+    line-height: 57px;
+    display: inline-block;
+	height: inherit;
+	font-size:14px;
+	padding: 0 30px;
+}
+.normal a:hover{
+	color:#ED8476;
+	border-bottom: 5px solid #ED8476;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    float: left;
+    background: url(img/book.png) no-repeat center;
+    background-size: 32px;
+    padding-left: 120px;
+	display: inline-block;
+    line-height: 62px;
+    margin-right: 20px;
+}
+
+#banner {
+    height: 690px;
+    background: url(img/1bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner .inner {
+    max-width: 500px;
+    text-align: left;
+    position: relative;
+    left: 115px;
+    top: 220px;
+}
+#banner .inner h1 {
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+}
+#banner .inner .sub_heading {
+    line-height: 35px;
+    margin: 20px 0;
+    margin-left: 10px;
+    font-size: 21px;
+    font-weight: lighter;
+    color: white;
+}
+button {
+    border: none;
+    background-color: #333;
+    color: #ccc;
+    padding: 10px;
+}
+#banner button {
+    margin-left: 8px;
+    margin-top: 44px;
+    padding: 18px 102px;
+    background-color: #E74F4D;
+    color: white;
+    font-size: 29px;
+    font-family: inherit;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.icontable {
+    background-color: #FFFFFFF;
+	height:250px;
+}
+.icontable table {
+    width: 1349px;
+	position:relative;
+	top: 34px;
+}
+.icontable table tr {
+    font-size: 14px;
+    line-height: 2;
+    color: #6F6F6F;
+    font-weight: 300;
+}
+.short{
+	height:80px;
+}
+.icontable table tr td {
+    text-align: center;
+}
+.border {
+    border-right: solid 2px #B3B3B3;
+}
+#aboutnw {
+    height: 340px;
+    background-color: #EDEDEC;
+}
+#aboutnw .inabout{
+	text-align:center;
+	position: relative;
+    top: 89px;
+	width:1349px;
+}
+#aboutnw .inabout h1 {
+    font-size: 49px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.35);
+    padding-top: 47px;
+}
+.hr {
+    width: 33px;
+    height: 2px;
+    /* color: #E08C0E; */
+    margin: 12px auto;
+    background-color: #f1f1f1;
+}
+.selectcity {
+    height: 340px;
+    width: 1349px;
+	background:url(img/map.jpg) no-repeat center;
+	background-attachment:cover;
+}
+.innertext {
+    text-align: center;
+    height: 340px;
+    background-color: rgba(121, 14, 0, 0.22);
+}
+.innertext h2 {
+    font-size: 22px;
+    font-weight: 100;
+    padding-top: 49px;
+    color: #f1f1f1;
+}
+.innertext h3 {
+    margin-top: 22px;
+    margin-bottom: 55px;
+    color: #F1F1F1;
+    font-weight: 300;
+}
+.select p {
+    margin-top: 14px;
+    /* margin-bottom: 14px; */
+    color: grey;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.selectgroup {
+    height: 38px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.select {
+    display: inline-block;
+    width: 251px;
+    height:38px;
+    margin: 0 atuo;
+    margin: 0 15px;
+    background: url(img/select_down.png) no-repeat scroll 95% 50% white;
+}
+.items{
+	position:relative;
+	top:30px;
+}
+.selectgroup button {
+    padding: 12px 100px;
+    background-color: #BB534A;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.activities {
+    width: 1349px;
+    height: 578px;
+    background-color: #F5F5F5;
+}
+.activities p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #909090;
+    margin-bottom: 9px;
+}
+.activities h2 {
+    font-size: 22px;
+    font-weight: 200;
+}
+.activities h3 {
+    font-size: 15px;
+    margin-top: 14px;
+    font-weight: 300;
+}
+.actitable{
+	width:1100px;
+	height:400px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	top:96px;
+}
+.fakeborder{
+	width:223px;
+	height:332px;
+	background-color:#FFFFFF;
+	text-align:center;
+	border:solid 1px  rgba(204, 204, 204, 0.56);
+	margin:0 auto;
+}
+.fakeborder img{
+	position:relative;
+	top:10px;
+}
+.suit {
+    height:550px;
+    width: 1349px;
+}
+.picture {
+    height: 550px;
+    width: 66.666666666666667%;
+	background:url(img/suit.jpg) no-repeat;
+	background-size:cover;
+	float:left;
+}
+.picture h3 {
+    font-size: 48px;
+    margin-top: 125px;
+    font-weight: 300;
+}
+.picture h2 {
+    margin-top: -5px;
+    font-weight: 200;
+    font-size: 153px;
+}
+.picture h4 {
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.suittext {
+    height: 550px;
+    width: 33.333333333333333%;
+	float:left
+}
+.suittext h2 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 160px;
+}
+.suittext span {
+    color: #E7504D;
+}
+.suit button {
+    border: solid 1px;
+    padding: 8px 24px;
+    margin-top: 15px;
+    font-size: 13px;
+    background: white;
+    border: solid 1px #E7504D;
+    color: #E7504D;
+}
+.suittext p {
+    max-width: 65%;
+    text-align: left;
+    margin-left: 17.5%;
+    margin-top: 23px;
+    line-height: 3;
+	color: #B9B8B8;
+}
+.woman{
+	 height:550px;
+    width: 1349px;
+	background:url(img/train.jpg) no-repeat right;
+	background-size:66.66666667%;
+}
+.woman button {
+    border: solid 1px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.woman h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 180px;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+.about1{
+	height:550px;
+	width:33.33333333333%;
+	background-color:#E7504D;
+	float:left;
+}
+.about2{
+	height:550px;
+	width:33.33333333333%;
+	background-color:#FFFFFF;
+	float:left;
+}
+.cover{
+	height:550px;
+	width:33.33333333333%;
+	background:rgba(0,0,0,0.35);
+	float:left;
+}
+.vol{
+	width:1349px;
+	height:280px;
+	background-color:#FFFFFF;
+}
+.vol h2 {
+    font-size: 21px;
+    font-weight: 500;
+	position:relative;
+	top:100px;
+}
+.vol .hr {
+    position: relative;
+    top: 99px;
+    background-color: #E7504D;
+}
+.vol p {
+    width: 32%;
+    padding-left: 34%;
+    padding-top: 104px;
+    line-height: 18px;
+    color: #ADADAD;
+}
+.imformation{
+	height:450px;
+	width:1349px;
+	background-color: #FFFFFF;
+}
+.treaty {
+    width: 34%;
+    height: 450px;
+    float: left;
+}
+.imfotable {
+    height: 450px;
+    width: 66%;
+    float: left;
+}
+.imfotable table{
+	width:70%;
+	margin-left:100px;
+
+}
+.imfotable td {
+    border: solid 16px #FFFFFF;
+    width: 50%;
+    background-color: #CCCCCC;
+    border-top: 0;
+}
+.imfotable input{
+	width:60%;
+	height:100%;
+	border:none;
+	background:transparent;
+	outline:none;
+	padding:10px;
+}
+.imfotable span{
+	margin:15px;
+}
+.imfotable button {
+    background: none;
+    color: black;
+    padding: 14px 270px;
+}
+.colrow{
+height:130px;}
+.treaty>div {
+    width: 60%;
+    float: right;
+}
+.treaty img {
+    float: right;
+	margin-bottom:32px;
+}
+.treaty span {
+    float: right;
+	margin-bottom:32px;
+}
+.treaty h3 {
+	margin-bottom:20px;
+}
+.treaty p{
+	line-height:18px;
+}
+
+.contact {
+    width: 1349px;
+    height: 300px;
+    background: #32353e;
+}
+.contact h2 {
+    font-size: 21px;
+    position: relative;
+    top: 50px;
+    font-weight: 400;
+}
+.contact p {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.contact input {
+    outline: none;
+    border: none;
+    /* tab-size: 20px; */
+    /* padding: 12px 122px; */
+    width: 400px;
+    height: 38px;
+    /* margin: 0; */
+}
+.contact button {
+    padding: 14px 29px;
+    /* margin: 0; */
+    background-color: #545451;
+}
+.link img {
+    padding: 17px;
+}
+.bb {
+    width: 1349px;
+    height: 55px;
+    background: #2f3038;
+}.bb button {
+    float: right;
+    margin-top: 10px;
+}
+.bb span {
+    /* padding-left: 20px; */
+    /* padding-top: 10px; */
+    position: relative;
+    top: 21px;
+    left: 54px;
+}
+.roundnav {
+    width: 10px;
+    height: 10px;
+    margin-left: 16px;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 1px solid #929292;
+    float: left;
+}.navactive {
+    background-color: #929292;
+}.suit ul {
+    margin-left: 173px;
+}
